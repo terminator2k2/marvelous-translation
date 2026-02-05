@@ -734,9 +734,12 @@ Fugo. Fugofugogo.[np]
 [scl][ ][ ][ ][ ]No, thanks.[X$68]
 [en1]
 
-I'm a biologist, here to help the
-[nl2]colonists...[np]
-[nl3]Sounds like a poem, right...?
+I am also but a lowly biologist![np]
+[nl2]But I'd risk life and limb~, give my
+[nl3]all on a whim~, for the sake of
+[scl]those villagers... Right now, I'm...[np]
+[scl]Practically singing a dramatic enka
+[scl]ballad here!
 [en2]
 
 It would terrible if you dropped
@@ -914,7 +917,7 @@ Huh? What's with that doll? No
 [scl]like that?!
 [scl]W-why would you think I wanted
 [scl]this...[np]
-[scl][Event]    
+[scl][Event]
 [scl]...Phew, are you really giving it to
 [scl]me?[np]
 [scl]Man, that's a harsh joke,
@@ -1248,12 +1251,14 @@ Huh..? The {R}{e}{d}{ }{K}{e}{y} should open a
 [nl3]ear.
 [en2]
 
-This island has had various plant
-[nl2]life for many years.[np]
-[nl3]There's a giant tree in the middle
-[scl]of the island.[np]
-[scl]It produces a special oil that they
-[scl]sell in the town.
+This island's had all kinds'a
+[nl2]plants growin' here for's long
+[nl3]as anyone 'ken r'mem-ber.[np]
+[scl]Folks say the oil you get from
+[scl]the big ol' tree at the center of
+[scl]this island is sum'n special...[np]
+[scl]So special, 'n fact, they ev'n
+[scl]sell it down 'n town.
 [en2]
 
 [nl2]        ...What a man!
@@ -1534,7 +1539,7 @@ It looks like a monster cuckoo
 [F2]You received a {M}{a}{g}{n}{e}{t} from
 [nl2]Professor Marlowe![np]
 [nl3]But what are you supposed to do
-[scl]with it?
+[scl]with something like this?
 [en1]
 
 Pegi, pegi, pengi.[np]
@@ -2420,7 +2425,7 @@ A formulation so formidable that
 [scl]valor in your many adventures.[np]
 [scl]Though termed a punishment for
 [scl]the King's benefit, think of it as
-[scl]more of doing me a favour.[np] 
+[scl]more of doing me a favour.[np]
 [scl]This is my humble plea.[np]
 [scl]Should you succeed in creating the
 [scl]{A}{n}{t}{ }{B}{u}{s}{t}{e}{r}, His Majesty will surely
@@ -2431,7 +2436,7 @@ A formulation so formidable that
 [en1]
 
 This is my humble plea.[np]
-[nl2]Should you succeed in creating the 
+[nl2]Should you succeed in creating the
 [nl3]{A}{n}{t}{ }{B}{u}{s}{t}{e}{r}, His Majesty will surely
 [scl]reassess your worth.[np]
 [scl]What say you? Will it be done?[X$6A]
@@ -5114,10 +5119,9 @@ What in tarnation!? The {B}{l}{u}{e}
 [scl]How do you know?! If that's true,
 [scl]we're in serious trouble![np]
 [scl]I know where the hideout of the
-[scl]"Mammoth Brothers" is, so follow
-[scl]me and let's go save Indio![np]
-[scl]I'll take that picture if you don't
-[scl]mind.
+[scl]{T}{h}{r}{e}{e}{ }{M}{a}{n}{m}{a}{t}{o}{ }{B}{r}{o}{t}{h}{e}{r}{s} is, so
+[scl]follow me and let's go save Indio![np]
+[scl]I'll hold onto that photo for you.
 [en2]
 
 Let's get a move on!!
@@ -5533,15 +5537,15 @@ Rakko, tomakko.[np]
 [nl3][ ][ ][ ]me!
 [en2]
 
-If you don't hurry, the Mammoth
+If you don't hurry, the Manmato
 [nl2]Brothers will catch you!
 [en2]
 
-You're either pretty bold, or dumb
-[nl2]to try to steal anything from the
-[nl3]Mammoth Brothers![np]
+You're either really bold, or really
+[nl2]dumb to try to steal anything from
+[nl3]the {T}{h}{r}{e}{e}{ }{M}{a}{n}{m}{a}{t}{o}{ }{B}{r}{o}{t}{h}{e}{r}{s}![np]
 [scl]Hey you! The punk with the hat...!
-[scl]You'll be the first to taste our
+[scl]You'll be the first to witness our
 [scl]Dance of Death!!
 [en1]
 
@@ -5555,13 +5559,14 @@ Don't think you can escape from
 ........
 [en2]
 
-Pay attention to what the
-[nl2]Mammoth guys say when they
+Listen up! Pay attention to what
+[nl3]those Manmato guys say when they
 [nl3]attack!
 [en2]
 
-If you don't push it quickly, the
-[nl2]Mammoth guys will wake up.
+Hurry and hit the button! If you
+[nl2]don't push it quickly, those Manmato
+[nl2]guys will wake up.
 [en2]
 
 When you return to your time,
@@ -7855,14 +7860,14 @@ This cannon's made to take down
 [nl2]the blue ones' boss, the {Q}{u}{e}{e}{n}.[np]
 [nl3]It fires an {A}{n}{t}{ }{B}{u}{s}{t}{e}{r} at 10 times
 [scl]it's usual might![np]
-[scl]When you face the {Q}{u}{e}{e}{n}{ }{A}{n}{t}, 
+[scl]When you face the {Q}{u}{e}{e}{n}{ }{A}{n}{t},
 
 hit
 [scl][ABtn] to freeze her in place,
  then
 [scl]
 use the[Item] next![np]
-[scl]...I place my faith in your victory. 
+[scl]...I place my faith in your victory.
 [scl]The Princess's fate rests in your
 [scl]hands.
 [en1]
@@ -8012,7 +8017,7 @@ The truth is...
 [en1]
 
 Sure, I was scared of the {Q}{u}{e}{e}{n}...
-[nl2]But deep down, I totally believed 
+[nl2]But deep down, I totally believed
 [nl3]that you would come to my rescue...[np]
 [scl][SP$001D]Just~, kidding!
 [scl]Enough joking around~...
@@ -9062,8 +9067,8 @@ I'll let you in on a secret!
 [en1]
 
 Hurry back to the village!
-[nl2]Professor Marlowe has made a
-[nl3]discovery!
+[nl2]It seems as though Professor
+[nl3]Marlowe has made a discovery!
 [en1]
 
 Why don't you try spraying various
@@ -9505,9 +9510,9 @@ Did you show Benson the picture?
 [nl3]you.
 [en1]
 
-Benson knows all about the
-[nl2]Mammoth Brothers, so why don't
-[nl3]you ask him to show you around?
+Since Benson knows the Manmato
+[nl2]guys pretty well, take him around
+[nl3]and try listening to what he says!
 [en1]
 
 Check for Benson's smoke signal.
@@ -9522,7 +9527,7 @@ Speaking of {L}{u}{c}{k}{ }{R}{o}{c}{k}{s}, do you
 [nl3]lot to defeat the bandits.
 [en1]
 
-Check out the Mammoth Brothers
+Check out the Manmato Brothers
 [nl2]with the [ABtn] button~!
 [en1]
 
@@ -10107,10 +10112,12 @@ What is it?[np]
 [nl3]I can't let you pass.
 [en2]
 
-What am I doing?
-[nl2]I work under Professor Marlowe.[np]
-[nl3]We're researching the strange
-[scl]plants found on this island.
+What'm I doin', ya' say?
+[nl2]Well now, I'm workin' under good
+[nl3]ol' Professor Marlowe.[np]
+[scl]We've been pokin' around and
+[scl]studyin' the strange plants
+[scl]growin' on this here island.
 [en2]
 
 Hmm?
@@ -10946,7 +10953,7 @@ It's looking good! I've spent years
 [nl3]nervous.
 [en2]
 
--Hassan's memo- 
+-Hassan's memo-
 [nl2]"{A}{n}{t}{ }{B}{u}{s}{t}{e}{r}: 5 components"
 [en2]
 
@@ -11386,7 +11393,7 @@ Hrrrmm... That woman's child was
 [scl]Lake, o'er yonder...[np]
 [scl]But e'en just the name gives me
 [scl]the tootin' willies, so I'm a'ferd I
-[scl]won't be goin' en' time soon...[np]
+[scl]won't be goin' en'e time soon...[np]
 [scl]Will ya' go in my stead?[np]
 [scl]I rightly doubt Indio's daughter
 [scl]means the child 'ny harm, but just
@@ -11395,7 +11402,7 @@ Hrrrmm... That woman's child was
 [scl]guarded by ma' dog, but don't ya'
 [scl]worry.[np]
 [scl]Just toss im' a bone and he'll fall
-[scl]right asleep. ..."wa-lllla~!"
+[scl]right ta' sleep. ..."waaa-lla~!"
 [en1]
 
 I'm the sheriff 'round these parts.
@@ -11788,9 +11795,9 @@ I'm not a ghost or a suspicious
 [nl2]person!
 [en2]
 
-We've got to hurry up! Let's get
-[nl2]the Crystal Ball back from the
-[nl3]Mammoth Brothers!!
+Stop wasting time! Let's get the
+[nl2]Crystal Ball back from the
+[nl3]Three Manmato Brothers!!
 [en2]
 
 I'm sure the secret entrance was
@@ -11927,27 +11934,27 @@ Ribbit! Croak![np]
 [nl2][TL] ...I'm hungry!
 [en2]
 
-I can smell the water.
+I can smell the water...
 [nl2]It looks like you kids managed to
 [nl3]dig the wells.[np]
-[scl]Were you the ones who rescued
-[scl]me? In order for me to prove my
-[scl]innocence, I have to stay here.[np]
+[scl]Did you come here to rescue me?
+[scl]Many thanks, but I can't leave...
+[scl]I must prove I'm innocent.[np]
 [scl]The guys who stole the {t}{o}{w}{n}{'}{s}
 [scl]{t}{r}{e}{a}{s}{u}{r}{e} are in their mountain
 [scl]hideout.[np]
-[scl]They're called the "Mammoth
-[scl]Brothers." You need to alert
+[scl]They're called the {T}{h}{r}{e}{e}{ }{M}{a}{n}{m}{a}{t}{o}
+[scl]{B}{r}{o}{t}{h}{e}{r}{s}. You need to alert
 [scl]Benson straight away![np]
 [scl]He'll help you take care of the
 [scl]bandits! Oh...? Benson...?[np]
 [scl]He's tall and his face is...
-[scl]Oh, I'm sure you'll recognize him
-[scl]from my description...
+[scl]Hmm, how can I describe him so
+[scl]you can recognize him...?
 [en2]
 
 Please alert Benson about the
-[nl2]Mammoth Brothers right away!
+[nl2]{M}{a}{n}{m}{a}{t}{o}{ }{B}{r}{o}{t}{h}{e}{r}{s} right away!
 [en2]
 
 Don't worry about me.
@@ -11970,7 +11977,7 @@ What are you doing?
 [en2]
 
 I'm sure the entrance was around
-[nl2]here... Those Mammoth jerks must
+[nl2]here... Those Manmato jerks must
 [nl3]have sealed it up![np]
 [scl]...Times like these call for a
 [scl]creative solution!
@@ -12000,9 +12007,9 @@ I'll go on ahead into the {M}{a}{m}{m}{o}{t}{h}
 [scl]to have my {D}{y}{n}{a}{m}{i}{t}{e} back!
 [en2]
 
-We're the Mammoth Bandits!
-[nl2]With our masks on, we can handle
-[nl3]anything!
+We're the Manmato Bandits!
+[nl2]As long as we've got our masks on,
+[nl3]nothing can stop us!
 [en2]
 
 What is this switch for?
@@ -12028,17 +12035,18 @@ The lazy, lucky otters are lounging
 [nl3]...Ouch, I bit my tongue!
 [en2]
 
-The otters have tomatters~!
+Those otters have tomatters~!
 [en2]
 
-Hey~, help me! The Mammoth
-[nl2]Brothers caught me! Please push
-[nl3]the buttons in front of you!
+Hey~, help me! Those Manmato guys
+[nl2]totally caught me! Please press
+[nl3]the buttons right in front of you!
 [en2]
 
-Wh-wh-what!? What was that!?
-[nl2]We're the Mammoth Brothers! We
-[nl3]defeat our enemies leader first!
+Hey! Ho! What's the matter!?
+[nl2]We're the {T}{h}{r}{e}{e}{ }{M}{a}{n}{m}{a}{t}{o}{ }{B}{r}{o}{t}{h}{e}{r}{s}![np]
+[nl3]It's our rule that we always
+[scl]defeat the enemy leader first!
 [en2]
 
 Huh?
@@ -12918,65 +12926,73 @@ I'll give you credit for making it
 [nl2]this far, kiddies!!
 [en2]
 
-It's the Mammoth guys!
+It's the Manmato gang!
 [en2]
 
 Huh?!
 [en2]
 
-[SMonkey1]Ooo-kii, ooo-kii![np]
-[nl2][TL] Outsider! Stranger! Intruder!!
+[SMonkey1]Uho! Uho![np]
+[nl2][TL] A stranger's here! A stranger!
+[nl3][ ][ ][ ]Stranger!!
 [en2]
 
-[SMonkey1]Ooo, ooo![np]
+[SMonkey1]Uho, uho![np]
 [nl2][TL] Hey, outsider! If you can beat
 [nl3][ ][ ][ ]me, I'll let you pass.
 [en2]
 
 [SMonkey1]Ooo-kii, ooo-kii![np]
-[nl2][TL] Hey, youngun, you...
-[nl3][ ][ ][ ]Wanna play a tug-o-war match?
+[nl2][TL] Hey, young'un, do you... Wanna
+[nl3][ ][ ][ ]play a tug-o-war match?
 [en2]
 
-[SMonkey1]Ooo-kii ooo-kii![np]
+[SMonkey1]Uho, ooo-uho![np]
 [nl2][TL] Hey, hey, let's have a
 [nl3][ ][ ][ ]tug-o-war match~.
 [en2]
 
-That's a pretty thick rope...
+It's a pretty beefy rope...
+[nl2]But... What's it for?
 [en2]
 
-I'm King Gingham III. And you...?
-[nl2]You pretended to be giants and
-[nl3]kidnapped Princess Polly!
+I'm King Gingham III. So it's you...?
+[nl2]So you're the ones... The ones who
+[nl3]pretended to be giants and
+[scl]deceived Polly with malicious intent!
 [en2]
 
 What is this?
 [en2]
 
-This thing looks like a treadmill...
-[nl2]Hmm...
+This looks like the kind of treadmill
+[nl2]you'd find at a gym...
+[nl3]Hmm...
 [en2]
 
 There's a small switch.
 [en2]
 
-What a rare plant! I must capture
-[nl2]its mysterious beauty! Don't you
-[nl3]feel like this is a plant paradise?
+Wow... What a rare plant!
+[nl2]I feel compelled to capture its
+[nl2]mysterious beauty![np]
+[nl3]This place is a plant paradise,
+[scl]wouldn't you say?
 [en2]
 
-Again~![np]
-[nl2]Did Professor Marlowe get the
-[nl3]photo?
+Come on already~![np]
+[nl2]You remembered to give the photo
+[nl3]to Professor Marlowe, right?
 [en2]
 
-Did you find a rare plant?
+So, did you find anything unusual?
+[nl2]Any rare plants?
 [en2]
 
 Documents are strewn about
-[nl2]haphazardly.
-[nl3]Did a burglar break in...?
+[nl2]haphazardly.[np]
+[nl3]Maybe a burglar broke in or
+[scl]something...?
 [en2]
 
 Well, would you get a look at this!
