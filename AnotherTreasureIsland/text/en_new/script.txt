@@ -734,10 +734,11 @@ Fugo. Fugofugogo.[np]
 [scl][ ][ ][ ][ ]No, thanks.[X$68]
 [en1]
 
-I am also but a lowly biologist![np]
-[nl2]But I'd risk life and limb~, give my
-[nl3]all on a whim~, for the sake of
-[scl]those villagers... Right now, I'm...[np]
+I am but a lowly biologist![np]
+[nl2]I'd risk life~ I'd risk and limb~
+[nl3]Give my all on a whim~...
+[scl]For the sake of the village...[np]
+[scl]Right now, I'm...[np]
 [scl]Practically singing a dramatic enka
 [scl]ballad here!
 [en2]
@@ -1233,7 +1234,7 @@ You wanna know about the
 
 If you can beat Bob, you might
 [nl2]get a prize. If you are feeling
-[nl3]tough, it only costs a single coin.[np]
+[nl3]tough, it only costs a single {c}{o}{i}{n}.[np]
 [scl]You can't dream big without money.
 [en2]
 
@@ -1258,7 +1259,7 @@ This island's had all kinds'a
 [scl]the big ol' tree at the center of
 [scl]this island is sum'n special...[np]
 [scl]So special, 'n fact, they ev'n
-[scl]sell it down 'n town.
+[scl]sell it in town.
 [en2]
 
 [nl2]        ...What a man!
@@ -1880,9 +1881,9 @@ The guy with the key is... John...!?
 Uhh... Which one is John!?
 [en1]
 
-It says...
-[nl2] 1. Latin   3. Rock
-[nl3] 2. Jazz   4. Classical Japanese
+1. Latin[ ][ ][ ]3. Rock
+[nl2]2. Jazz[ ][ ][ ]4. Japanese
+[nl3]...That's what it says, huh?
 [en2]
 
 Hmm~! I'm feelin' that Latin flava'!
@@ -1894,8 +1895,8 @@ Hmm~! Feelin' Jazzy!
 Hmm~! I feel like rockin'!
 [en2]
 
-Hmm~!... It's classical...
-[nl2]Ja... Japanese!?
+Hmm~... It's got a Japanese vibe...
+[nl2]Wait... Ja-Japanese!?
 [en2]
 
 Okay, the engine stopped!
@@ -2570,15 +2571,15 @@ I've heard rumors that on the
 [nl3][ ][ ][ ]use it well!
 [en2]
 
-If you want to go, I won't try to
-[nl2]stop you. But you'd do well to
-[nl3]listen to what a cactus says![np]
-[scl]Here's a good one...
+Mister, If you wanna go on ahead,
+[nl2]I ain't givin' ya bad advice. So, ya 
+[nl3]best listen to what a cactus says![np]
+[scl]Here's a meaty verse...
 [scl]
 [scl][np]
-[scl]Fat legs, no path, open up.
-[scl]
-[scl]                     by Cactus
+[scl]Fat legs forge ahead,
+[scl]No path seen, yet to be found-
+[scl]Open, carve the way.     by Cactus
 [en2]
 
 Now, this is your last chance.
@@ -2590,13 +2591,13 @@ Don't try to lie to an adult! The
 [nl3]I didn't think so.
 [en1]
 
-You should listen to what a cactus
-[nl2]tells you![np]
-[nl3]Here's a verse...
+You should listen to what the
+[nl2]cactus tells you![np]
+[nl3]So, here's a verse...
 [scl][np]
-[scl]Kick grass, make a road, cross.
-[scl]
-[scl]                     by Cactus
+[scl]Tall grass yields to kicks,
+[scl]A winding road takes shape-
+[scl]Cross into unknown.      by Cactus
 [en2]
 
 [F2]Goooooal! Congratulations![np]
@@ -2606,12 +2607,12 @@ You should listen to what a cactus
 Fine, take it, thief!
 [en1]
 
-Here's a verse...
+Alright then, here's a verse...
 [nl2]
 [nl3][np]
-[scl]Cave entry, basement, underground.
-[scl]
-[scl]                     by Cactus
+[scl]Village depths conceal,
+[scl]a cave's secret entrance near-
+[scl]basement is the way.     by Cactus
 [en2]
 
 Mymy, m~y, my![np]
@@ -2959,14 +2960,14 @@ Don't go dropping any more honey
 [en1]
 
 Since you found the path, here's
-[nl2]a verse...
+[nl2]a proverb...
 [nl3][np]
-[scl]Where there's a will, there's a
-[scl]way. Where there isn't, nothing
-[scl]happens.[np]
+[scl]To him that will, ways are not
+[scl]wanting. To him that won't, the
+[scl]void becomes daunting.[np]
 [scl]
-[scl]...I plagiarized it.
-[scl]                     by Cactus
+[scl]...I ripped it off... just a bit.
+[scl]                        by Cactus
 [en2]
 
 We are storing various documents
@@ -3245,7 +3246,7 @@ I don't have anymore~!
 [nl2]          Go home!!
 [nl3][np]
 [scl]The Baobab tree and the Crystal
-[scl]Ball are all mine![np]
+[scl]Ball are ours![np]
 [scl]
 [scl]Now leave this place, before you
 [scl]get hurt!!
@@ -3278,12 +3279,12 @@ On days like this it is best to
 [nl2]stay indoors!
 [en2]
 
-Here's one from the heart...
-[nl2]
+This one's from the heart.
+[nl2]A verse for "the husbands"...
 [nl3][np]
-[scl]Rain stops, spring starts, also
-[scl]inside my heart.
-[scl]                     by Cactus
+[scl]Rain halts its soft drum,
+[scl]Spring whispers life into bloom-
+[scl]My heart stirs within.    by Cactus
 [en2]
 
 If you want the honey, come
@@ -10084,7 +10085,7 @@ This is a telescope, right?
 [X$6A]The... The princess....
 [en1]
 
-I'll show you a good dream.
+I'll make this real easy on you.
 [en2]
 
 ...A tile is missing from this spot.
@@ -10468,7 +10469,7 @@ It's a loud, squeaky mouse.[np]
 [scl]{h}{e}{a}{r}{d}{ }{a}{ }{m}{o}{u}{s}{e} squeak?
 [en2]
 
-There's trouble, man... I was
+Oh boy, there's trouble... I was
 [nl2]working inside, and then suddenly,
 [nl3]Mr. Smith came after me!
 [en2]
@@ -13024,7 +13025,7 @@ So, how do you like my spray?
 
 If what that man said is true,
 [nl2]we're dealing with some kind of
-[nl3]ridiculously mean plant.
+[nl3]ridiculously dangerous plant.
 [en2]
 
 Say~ what?
@@ -14069,7 +14070,7 @@ We can take nutrients and live on
 [F2]You got the third Crystal Ball!
 [en1]
 
-[SStop][SP$011D]       Grrr bark! bark!
+[SStop][SP$011D]       Grrrrr bark! bark!
 [en2]
 
 [F2]We made a Mouse Bridge!!
