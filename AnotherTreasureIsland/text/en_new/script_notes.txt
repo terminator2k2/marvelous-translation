@@ -1,15 +1,15 @@
 Unused
+more about tone in the change. What's this?! became whats going on?!
+group up, just not closer to (something)
+Transmission failed
+slight edit, trying to convey surprise better...
 
 
-Test
-
-
-
-
-added more screaming
-
-
-
+edited to up the excitement. "home sweet camp" was kind of a stretch, but not really bad, just different.
+removed random screaming as it's meant to be exhertion, not insanity, lol
+not sure if "that place" is correct TODO: Check
+just changed the flow a bit
+small tweaks to the floooow
 
 simplified. also, from freak to fanatic-- freak is too negative a connotation
 
@@ -19,27 +19,35 @@ more freaks are fanatics every day.
 
 
 
+stronger meaning than "moved"
 
 
 
 
 
-
-
-
+was missing the Hasamu- "sandwich"/clamp added for clarity
+You wanna piece of me more directly translated to You wanna fight me?\This was a mistranslation: hottokeyo means leave it/forget it/leave me alone -- has a dismissive tone, so I'm thinking Get outta here fits that pretty okay. The previous mis-translation "thats not funny" always seemed out of place, but I just didnt understand what it meant before, lol
 Chapter 5 Letter
 
 edited slightly
-Ch1: Start Text 9 (Duties)
+Ch1: Start Text 9 (Duties) changed pieces of firewood to sticks of firewood. This is also meant to be a polite request. not demanding, so no imperatives (nbd)
 fixed formatting
 
-
+slight change because the robot is friendly, not gentle. and he specifies the remote is his. he also acknowledges his uselessness without the remote
 
 
 
 Watering Robot Path Puzzle
 Rotating Cross Puzzle
 
+bullied becomes picked on because bullied seems to imply cruel intent, where this was not necessarily correct here TODO: check in game for context
+
+winky, tweaked the broken english
+the japanese says bokura no me -> our eyes, literally, but could be figurative-- how we look... I just tweaked "clothes" to "outfits" because I like it better
+
+the holes/spacing looks right
+small change
+Let's get a running start and smash right through! (I believe you call this... spice)\dokan to ippatsu = explosive one-shot lit. one big bang, one big hit
 
 
 
@@ -47,33 +55,25 @@ Rotating Cross Puzzle
 
 
 
+fixed it. made another change that doesnt imply it wouldnt move at all, just that we've got to hurry and wont move fast enough to escape
 
+Take this!/Eat this! slight edit. doesnt really change the meaning.\this is when you send the frog through the window
 
+don't know what I was thinking with this one. brain is broken, I guess. It's fixed now.
 
-
-
-
-
-
-fixed it.
-
-
-
-
-
-This is miss Sisko speaking. Old translation:\I believe children are able to\[nl2]sense virtue in people.[np]\[nl3]So it was my dream to become a\[scl]teacher--[np]\[scl]In order to teach children to have\[scl]kind hearts.
+This is miss Sisko speaking. Old translation:\I believe children are able to\[nl2]sense virtue in people.[np]\[nl3]So it was my dream to become a\[scl]teacher--[np]\[scl]In order to teach children to have\[scl]kind hearts.\Made more changes to fix the awkward split: OLD:\My true dream was to become a\[nl2]teacher who could guide children\[nl3]to nurture a gentle heart.[np]\[scl]And to understand the feelings\[scl]of others.
 Don't worry, I haven't changed at\[nl2]all... Look, aren't I pretty?
 
 
 
 
+just some small edits to improve personality conveyance... hopefully
+modified to more closely convey his intimidation factor... which may only be in my head.
 
 
 
 
-
-
-わがまま is a whimsical way to say she's a bit spoiled, a tad selfish.\I chose bossy due to the context of what she said previously
+わがまま is a whimsical way to say she's a bit spoiled, a tad selfish, but in an endearing way.\I chose bossy due to the context of what she said previously.\slight re-write in 2026! :P
 Made some adjustments to the tone to better match the original. The original text is actually praising jim, calling his actions "truly logical".
 
 fixing this up a bit to be more accurate to the original
@@ -95,15 +95,33 @@ At the base of the northwest tree, SOS, please help.\this is winky speaking in b
 gender isn't referenced in the original message
 Literally: With this, we should be able to get good oil again.
 
+gotta pair back the extreme ellipsis sometimes
 
-
-
+small edit
 
 
 
 fragrance/smell same-same
 
-I have no regrets in my youth!
+I have no regrets in my youth! (i changed this again a bit)
+
+
+
+
+
+slight change in phrasing to sound heroic
+
+
+slight idiomatic change
+
+slight change for brevity and clarity, accuracy, etc
+
+
+
+
+
+
+this is Polly speaking, so i've gotta tone down the big words 
 
 
 
@@ -111,71 +129,53 @@ I have no regrets in my youth!
 
 
 
+trying to make it sound more natural. It pains me so.
+
+TODO: NEED TO CHECK SPACING \Final Score\[Leader] is used for Luck Rock graphics\[One2] is an equivalent to [nl4]
 
 
+choices need exactly 4 FULL spaces, btw - expanded the last choice text cause it was lost to the void before.
+changed from Very Marvelous
 
 
+emphasis on still
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Final Score\[Leader] is used for Luck Rock graphics\[One2] is an equivalent to [nl4]
-
-
-
-
-
-
-
-
-
-
-
+changed carefully to properly, still in the ballpark, but not quite
+small changes
+slight change
 marlowe I wasn't familiar with 肌ぬいでみる, but it seems to be a figurative way of representing a dramatic sacrifice. this is after line 2632
-
-winky
-
-
+I guess this isn't the time for jokes- more than keys...
+winky - monkey-speak
 
 
 
 
 
 
+Damn! (I removed this because my sister wouldn't let her sons play the translation...)
+added slowpoke to really drive it home :p
+slight change, give it your best shot was not quite right, but was okay. run like you mean it is better... probably
+
+
+removed the extreme slang that I added for no reason but to make myself laugh
+
+removed the slang for a less western-american 90s version, lol "You rock!" is something I would have said as a kid, however
 
 
 
+needs more disgust, so removing darn and going with Ugh! Removing lovey-dovey and going with clingy
 
 
 
+seems to be robotic sounding instructions, but not unintelligible, and not as robotic as the robots before, kinda
 
 
-
-
-
-
-
-
-
-
-
+he's not sick of them, but he does realize a solution to having so many, and he sounds a bit arrogant and egotistical (ore-sama) "I have these in rotting quantities." "More than I could ever use."
 
 
 Even if I knew, I wouldn't tell you!
 
-
+H-hey... not bad
 
 
 
