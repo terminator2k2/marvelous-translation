@@ -5,7 +5,8 @@ Marvelous - Another Treasure Island v2.0 Translation Patch Staff:
 English Version:
 - tashi - Original Japanese to English Text Translation
 - DackR - English Text Editing, Graphics
-- bluesun - English Retranslation, 
+- bluesun - English Retranslation
+- geometricentric - Graphics (Logo)
 
 French Version (based from the works of the English Version):
 - pinktagada - French Text Translation
