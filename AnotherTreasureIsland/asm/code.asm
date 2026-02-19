@@ -604,3 +604,23 @@ asm_searchmode_replace_tileset:
 	lda #$6000
 	sta $9F33C8
 	rtl
+
+//Hack: Fix Display when going back from Title Screen to Introduction Text
+enqueue pc
+seekAddr($9FFA47)
+	//lda #$15   - 2
+	//sta $3619  - 3
+	jsl asm_fix_display_introtext
+	nop
+dequeue pc
+asm_fix_display_introtext:
+	lda $00302F	//Related to code stuff so I think it's reliable
+	cmp #$19
+	beq +
+	//Display BG3
+	lda #$15
+	bra ++
+	//Don't display BG3
++;	lda #$11
++;	sta $003619
+	rtl
