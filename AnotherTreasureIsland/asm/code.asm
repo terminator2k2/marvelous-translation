@@ -624,3 +624,185 @@ asm_fix_display_introtext:
 +;	lda #$11
 +;	sta $003619
 	rtl
+
+//Hack: Change Staff Roll Text Display to allow more polish
+enqueue pc
+seekAddr($14CF70)
+	jsl asm_staffroll
+	fill 36,$ea		//Fill NOPs
+dequeue pc
+asm_staffroll:
+	cpx.b #$0E<<1
+	bne +
+	//Use Original Tilemap already preloaded for End Screen
+	lda.w #$3E80
+	sta $4302
+	ldy.b #$7F
+	sty $4304
+
+	lda.w #$1801
+	sta $4300
+	ldy.b #$80
+	sty $2115
+	lda.w #$7800	//At $7800 in VRAM
+	sta $2116
+	lda.w #$0100	//$100 bytes
+	sta $4305
+	ldy.b #$01
+	sty $420B
+	rtl
+
++;	//Upload Tilemap
+	lda tbl_map_staffroll_lo,x
+	sta $4302
+	lda tbl_map_staffroll_hi,x
+	sta $4304
+
+	lda.w #$1801
+	sta $4300
+	ldy.b #$80
+	sty $2115
+	lda.w #$7800	//At $7800 in VRAM
+	sta $2116
+	lda.w #$0100	//$100 bytes
+	sta $4305
+	ldy.b #$01
+	sty $420B
+
+	//Upload Tiles
+	lda tbl_gfx_staffroll_lo,x
+	sta $4302
+	lda tbl_gfx_staffroll_hi,x
+	sta $4304
+
+	lda.w #$1801
+	sta $4300
+	ldy.b #$80
+	sty $2115
+	lda.w #$4000	//At $4000 in VRAM
+	sta $2116
+	lda.w #$2000	//$2000 bytes
+	sta $4305
+	ldy.b #$01
+	sty $420B
+	rtl
+
+tbl_map_staffroll_lo:
+	dw map_staffroll_01, map_staffroll_02, map_staffroll_03, map_staffroll_04
+	dw map_staffroll_05, map_staffroll_06, map_staffroll_07, map_staffroll_08
+	dw map_staffroll_09, map_staffroll_10, map_staffroll_11, map_staffroll_12
+	dw map_staffroll_13, map_staffroll_14
+
+tbl_map_staffroll_hi:
+	dw (map_staffroll_01)>>16, (map_staffroll_02)>>16, (map_staffroll_03)>>16, (map_staffroll_04)>>16
+	dw (map_staffroll_05)>>16, (map_staffroll_06)>>16, (map_staffroll_07)>>16, (map_staffroll_08)>>16
+	dw (map_staffroll_09)>>16, (map_staffroll_10)>>16, (map_staffroll_11)>>16, (map_staffroll_12)>>16
+	dw (map_staffroll_13)>>16, (map_staffroll_14)>>16
+
+tbl_gfx_staffroll_lo:
+	dw gfx_staffroll_01, gfx_staffroll_02, gfx_staffroll_03, gfx_staffroll_04
+	dw gfx_staffroll_05, gfx_staffroll_06, gfx_staffroll_07, gfx_staffroll_08
+	dw gfx_staffroll_09, gfx_staffroll_10, gfx_staffroll_11, gfx_staffroll_12
+	dw gfx_staffroll_13, gfx_staffroll_14
+
+tbl_gfx_staffroll_hi:
+	dw (gfx_staffroll_01)>>16, (gfx_staffroll_02)>>16, (gfx_staffroll_03)>>16, (gfx_staffroll_04)>>16
+	dw (gfx_staffroll_05)>>16, (gfx_staffroll_06)>>16, (gfx_staffroll_07)>>16, (gfx_staffroll_08)>>16
+	dw (gfx_staffroll_09)>>16, (gfx_staffroll_10)>>16, (gfx_staffroll_11)>>16, (gfx_staffroll_12)>>16
+	dw (gfx_staffroll_13)>>16, (gfx_staffroll_14)>>16
+
+//Hack: Add Staff Roll sections
+enqueue pc
+seekAddr($14D11A)
+	cmp.b #$0E
+seekAddr($14CF69)
+	lda tbl6_staffroll,x
+seekAddr($14CF9C)
+	lda tbl2_staffroll,x
+seekAddr($14CFA3)
+	lda tbl1_staffroll,x
+seekAddr($14CFD3)
+	lda tbl7_staffroll,x
+seekAddr($14CFF0)
+	lda tbl7_staffroll,x
+seekAddr($14D03D)
+	lda tbl3_staffroll,x
+seekAddr($14D044)
+	lda tbl5_staffroll,x
+seekAddr($14D04B)
+	lda tbl4_staffroll,x
+dequeue pc
+
+tbl1_staffroll:		//Game Section to show off
+	db $46,$48,$11,$23,$17,$3c,$5b,$29,$20,$34,$2a,$66
+	db $02,$02		//added
+	db $44
+tbl2_staffroll:		//Vertical Placement of Credits Text (80, 60) (if CC = nothing on screen)
+	db $80,$60,$80,$60,$80,$60,$80,$60,$80,$60,$80,$60
+	db $46,$46		//added
+	db $80
+tbl3_staffroll:		//Y Window Position (if 00 = nothing on screen)
+	dw $0048,$0098,$0048,$0098,$0048,$0098,$0048,$0098,$0048,$0098,$0048,$0098
+	dw $00B8,$00B8	//added
+	dw $0048
+tbl4_staffroll:		//X Position of Background
+	dw $00f0,$fff0,$ffe8,$fff0,$fff0,$00fc,$0000,$fff0,$00f0,$fff0,$0100,$fff0
+	dw $00f0,$00f0	//added
+	dw $ffec
+tbl5_staffroll:		//Y Position of Background
+	dw $0100,$0130,$00f0,$0024,$fffc,$0030,$0000,$ffa0,$00f8,$00a0,$0100,$0030
+	dw $0000,$0000	//added
+	dw $0000
+tbl6_staffroll:		//Sprite Base?
+	dw $0008,$0010,$0402,$0408,$0466,$0050,$0068,$04ae,$0092,$04ea,$00c4,$050a
+	dw $0008,$0008	//added
+	dw $0420
+tbl7_staffroll:		//???
+	dw $d900,$d880,$d900,$d900,$d900,$d900,$d900,$d900,$d900,$d900,$d900,$d900
+	dw $d900,$d900	//added
+	dw $d900
+
+//Hack: Add middle text placement in Staff Roll (for extra sections)
+enqueue pc
+seekAddr($00A538)
+	jml asm_staffroll_middle1
+seekAddr($00A5AB)
+	jml asm_staffroll_middle2
+dequeue pc
+asm_staffroll_middle1:
+	lda $4B
+	cmp.b #$46
+	beq +
+	cmp.b #$80
+	jml $00A53C		//to 0x80 branch compare
++;	jml $00A53E
+asm_staffroll_middle2:
+	lda $4B
+	cmp.b #$46
+	beq +
+	cmp.b #$80
+	jml $00A5AF		//to 0x80 branch compare
++;	lda.b #$02
+	sta $212C
+	sta $212D
+	lda.b #$B0
+	sta $2110
+	lda.b #$01
+	sta $2110
+	stz $210F
+	stz $210F
+	lda.b #$25
+	sta $2105
+	stz $2106
+	lda.b #$0F
+	sta $2123
+	lda.b #$D0
+	sta $4209
+	stz $420A
+	lda.b #$A1
+	sta $4200
+	lda $3600
+-;	bit $4212
+	bvc -
+	sta $2100
+	jml $00A5D5		//to RTS
